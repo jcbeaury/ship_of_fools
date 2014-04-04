@@ -24,7 +24,7 @@
           <li><a href="about">About</a></li>
           <li><a href="photography">Photography</a></li>
           <li><a href="cast">Cast</a></li>
-          <li><a href="filmmakers">Filmmaker</a></li>
+          <li><a href="filmmakers">Filmmakers</a></li>
           <li><a href="music">Music</a></li>
           <li><a href="credits">Credits</a></li>
         </ul>
@@ -36,5 +36,12 @@
   </div>
   <script type="text/javascript" src="/vendor/jquery/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script>
+    $('#sidebar').affix({
+      offset: {
+        top: $('header').height()
+      }
+    });
+  </script>
 </body>
 </html>

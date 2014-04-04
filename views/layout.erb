@@ -5,6 +5,9 @@
   <title><%= @title %></title>
   <link type="text/css" rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css"/>
   <link type="text/css" rel="stylesheet" href="/css/custom.css"/>
+  <!–[if lt IE 9]>
+  <script src=”http://html5shim.googlecode.com/svn/trunk/html5.js“></script>
+  <![endif]–>
 </head>
 <body>
   <header class="navbar navbar-default navbar-static-top" role="navigation">
@@ -36,12 +39,6 @@
   </div>
   <script type="text/javascript" src="/vendor/jquery/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script>
-    $('#sidebar').affix({
-      offset: {
-        top: $('header').height()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="/js/custom.js"></script>
 </body>
 </html>

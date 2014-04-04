@@ -1,0 +1,9 @@
+# Ignore bundler config
+/.bundle
+
+# All logfiles and tempfiles
+/log/*.log
+/tmp
+
+# RubyMine IDE
+/.idea

@@ -1,1 +1,11 @@
 /* This is the stylesheet */
+
+body {
+  padding-top: 75px;
+}
+
+.anchor {
+  position: relative;
+  top: -70px;
+}
+

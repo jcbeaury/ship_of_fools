@@ -4,6 +4,10 @@ body {
   padding-top: 75px;
 }
 
+#home_img {
+  margin: 0 auto;
+}
+
 .anchor {
   position: relative;
   top: -70px;

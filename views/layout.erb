@@ -5,6 +5,11 @@
   <title><%= @title %></title>
   <link type="text/css" rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css"/>
   <link type="text/css" rel="stylesheet" href="/css/custom.css"/>
+  <% if @photography %>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap-image-gallery.min.css">
+  <% end %>
 </head>
 <body>
   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -20,13 +25,13 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class=<%= "#{@navbar1}" %>><a href="/">Home</a></li>
-          <li class=<%= "#{@navbar2}" %>><a href="about">About</a></li>
-          <li class=<%= "#{@navbar3}" %>><a href="photography">Photography</a></li>
-          <li class=<%= "#{@navbar4}" %>><a href="cast">Cast</a></li>
-          <li class=<%= "#{@navbar5}" %>><a href="filmmakers">Filmmakers</a></li>
-          <li class=<%= "#{@navbar6}" %>><a href="music">Music</a></li>
-          <li class=<%= "#{@navbar7}" %>><a href="credits">Credits</a></li>
+          <li class=<%= "#{@home}" %>><a href="/">Home</a></li>
+          <li class=<%= "#{@about}" %>><a href="about">About</a></li>
+          <li class=<%= "#{@photography}" %>><a href="photography">Photography</a></li>
+          <li class=<%= "#{@cast}" %>><a href="cast">Cast</a></li>
+          <li class=<%= "#{@filmmakers}" %>><a href="filmmakers">Filmmakers</a></li>
+          <li class=<%= "#{@music}" %>><a href="music">Music</a></li>
+          <li class=<%= "#{@credits}" %>><a href="credits">Credits</a></li>
         </ul>
       </div>
     </div>
@@ -37,5 +42,10 @@
   <script type="text/javascript" src="/vendor/jquery/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="/js/custom.js"></script>
+  <% if @photography %>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap-image-gallery.min.js"></script>
+  <% end %>
 </body>
 </html>

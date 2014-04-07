@@ -1,4 +1,5 @@
 ship_of_fools
 =============
 
-Uses sinatra and bootstrap with ruby 2.1.0
+Uses sinatra, bootstrap, and blueimp gallery
+with ruby 2.1.0

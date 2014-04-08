@@ -1,5 +1,10 @@
 // keep the sidebar in place
 $('#sidebar').affix({
+    offset: {
+        bottom: function () {
+            return (this.bottom = $('#footer').outerHeight(true))
+        }
+    }
 });
 
 // image gallery

@@ -11,11 +11,6 @@
     <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap-image-gallery.min.css">
   <% end %>
-  <% if @home %>
-    <style>
-      body {background-color:#080808;}
-    </style>
-  <% end %>
 </head>
 <body>
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -44,6 +39,10 @@
   </div>
   <div class="container">
     <%= yield %>
+  </div>
+  <div id="footer">
+    <div class="container">
+    </div>
   </div>
   <script type="text/javascript" src="/vendor/jquery/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js"></script>

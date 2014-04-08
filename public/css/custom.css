@@ -6,6 +6,7 @@ body {
 
 #home_img {
   margin: -25px auto;
+  max-height: 1000px;
 }
 
 #sidebar {
@@ -65,6 +66,13 @@ body {
   z-index: 5000;
 }
 
+@media screen and (min-width: 768px) {
+  #SPlink {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   #links img {
     height: 50px;
@@ -74,9 +82,7 @@ body {
   }
   #sidebar {
     margin-top: 0;
-  }
-  #sidebar a {
-    float: left;
+    text-align: center;
   }
   .featurette .right {
     float: none;

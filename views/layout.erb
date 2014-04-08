@@ -13,7 +13,7 @@
   <% end %>
   <% if @home %>
     <style>
-      .container { padding: 0; }
+      body { background-color: #222222; }
     </style>
   <% end %>
 </head>
@@ -42,7 +42,7 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <div id="main" class="container">
     <%= yield %>
   </div>
   <div id="footer">

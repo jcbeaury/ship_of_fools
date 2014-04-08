@@ -21,6 +21,10 @@ body {
   padding-left: 0;
 }
 
+.featurette img {
+  margin-top: 20px;
+}
+
 .anchor {
   position: relative;
   top: -70px;

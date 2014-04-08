@@ -26,6 +26,10 @@ body {
   margin-top: 20px;
 }
 
+.featurette .right {
+  float: right;
+}
+
 .anchor {
   position: relative;
   top: -70px;
@@ -62,6 +66,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  #links img {
+    height: 50px;
+  }
   .affix-top, .affix, .affix-bottom {
     position: relative;
   }
@@ -70,5 +77,8 @@ body {
   }
   #sidebar a {
     float: left;
+  }
+  .featurette .right {
+    float: none;
   }
 }

@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap-image-gallery.min.css">
   <% end %>
+  <% if @home %>
+    <style>
+      .container { padding: 0; }
+    </style>
+  <% end %>
 </head>
 <body>
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">

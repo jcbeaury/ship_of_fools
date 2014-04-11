@@ -103,6 +103,14 @@ body {
   }
 }
 
+@media screen and
+(max-width: 991px) and
+(min-width: 768px) {
+  body {
+    padding-top: 125px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   #links img {
     height: 50px;

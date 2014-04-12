@@ -112,6 +112,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .nav {
+    text-align: right;
+  }
   #links img {
     height: 50px;
   }

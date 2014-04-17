@@ -8,6 +8,14 @@ body {
   padding-top: 75px;
 }
 
+@media screen and
+(max-width: 991px) and
+(min-width: 768px) {
+  body {
+    padding-top: 125px;
+  }
+}
+
 .shipoffools {
   text-transform: uppercase;
   font-style: italic;
@@ -61,6 +69,14 @@ body {
 .anchor {
   position: relative;
   top: -70px;
+}
+
+@media screen and
+(max-width: 991px) and
+(min-width: 768px) {
+  .anchor {
+    top: -120px;
+  }
 }
 
 #links img {

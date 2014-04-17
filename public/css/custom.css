@@ -8,6 +8,11 @@ body {
   padding-top: 75px;
 }
 
+.shipoffools {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
 #main {
   min-height: 100%;
   height: auto !important;

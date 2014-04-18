@@ -97,6 +97,11 @@ body {
   text-align: center;
 }
 
+.laurel {
+  width: 25%;
+  float: left;
+}
+
 #ghost {
   margin: auto;
 }

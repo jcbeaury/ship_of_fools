@@ -101,6 +101,12 @@ body {
   margin: 0 auto;
 }
 
+#mail {
+  color: #ffffff;
+  float: left;
+  padding-top: 10px;
+}
+
 #buttons {
   float: right;
   padding-top: 10px;

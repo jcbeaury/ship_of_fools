@@ -25,7 +25,8 @@ body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -40px; /* the bottom margin is the negative value of the footer's height */
+  margin-bottom: -105px; /* the bottom margin is the negative value of the footer's height */
+  padding-bottom: 60px;
 }
 
 #trailer {

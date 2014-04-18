@@ -36,6 +36,12 @@ get '/music' do
   erb :'/music'
 end
 
+get '/press' do
+  @title = 'Ship of Fools | Press'
+  @press = 'active'
+  erb :'/press'
+end
+
 get '/credits' do
   @title = 'Ship of Fools | Credits'
   @credits = 'active'
